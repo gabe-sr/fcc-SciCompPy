@@ -48,7 +48,7 @@ def decrypt(message, key):
     return vigenere(message, key, -1)
 
 def main():
-    print('Hello welcome to a simple cypher project from freeCodeCamp.org')
+    print('Hello, welcome to a simple cypher project from freeCodeCamp.org')
     cypher_type = str.lower(input('Please which type of "encryption" you want to use, (C)aesar or (V)igenère cyphers? (c/v)\n'))
     match cypher_type:
         case 'c':
